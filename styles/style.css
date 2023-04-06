@@ -1,0 +1,112 @@
+body {
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+button {
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.logo-wrapper {
+  width: 300px;
+}
+
+.logo-img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+.form-btn {
+  background-color: rgb(11, 185, 11);
+  padding: 7.5px 15px;
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-btn:hover {
+  transform: scale(1.1);
+  background-color: rgb(8, 138, 8);
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.todos {
+  margin-top: 20px;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo__text {
+  padding: 0 10px;
+  max-width: 300px;
+  width: 100%;
+  word-break: break-all;
+}
+
+.todo__done-btn {
+  width: 60px;
+  padding: 5px 10px;
+  background-color: rgb(81, 162, 255);
+  border-radius: 15px;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.todo__done-btn:hover {
+  background-color: rgb(64, 133, 211);
+}
+
+.todo__delete-btn {
+  width: 60px;
+  padding: 5px 10px;
+  background-color: rgb(231, 44, 44);
+  border-radius: 15px;
+  color: #fff;
+}
+
+.todo__delete-btn:hover {
+  background-color: rgb(173, 38, 38);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: #000;
+  color: #fff;
+}
